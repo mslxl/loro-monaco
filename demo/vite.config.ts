@@ -4,6 +4,7 @@ import wasm from "vite-plugin-wasm";
 
 
 export default defineConfig(()=>({
+    base: "/loro-monaco/",
     plugins: [
         topLevelAwait(),
         wasm()
