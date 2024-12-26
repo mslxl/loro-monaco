@@ -42,6 +42,5 @@
       "import": "./dist/loro-monaco.js"
     },
     "./package.json": "./package.json"
-
   }
 }
