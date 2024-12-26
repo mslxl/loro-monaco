@@ -1,6 +1,6 @@
 {
   "name": "loro-monaco",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "Monaco editor bindings for loro",
   "main": "./dist/loro-monaco.js",
   "type": "module",
