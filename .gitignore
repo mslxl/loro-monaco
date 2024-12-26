@@ -1,0 +1,4 @@
+node_modules/
+dist/*
+!dist/loro-monaco.js
+!dist/loro-monaco.d.ts

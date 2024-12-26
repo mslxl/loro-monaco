@@ -1,0 +1,47 @@
+{
+  "name": "loro-monaco",
+  "version": "1.0.0",
+  "description": "Monaco editor bindings for loro",
+  "main": "./dist/loro-monaco.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "loro-crdt",
+    "Monaco"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mslxl/loro-monaco.git"
+  },
+  "homepage": "https://github.com/mslxl/loro-monaco",
+  "bugs": {
+    "url": "https://github.com/mslxl/loro-monaco/issues"
+  },
+  "author": "mslxl <i@mslxl.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.29.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "loro-crdt": "^1.2.3",
+    "monaco-editor": "^0.52.2"
+  },
+  "files": [
+    "src/*",
+    "dist/*"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/loro-monaco.d.ts",
+      "import": "./dist/loro-monaco.js"
+    },
+    "./package.json": "./package.json"
+
+  }
+}
